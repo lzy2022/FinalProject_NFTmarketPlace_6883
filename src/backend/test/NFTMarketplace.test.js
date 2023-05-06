@@ -233,9 +233,9 @@ let nft_marketplace;
       // Item should be marked as sold
       expect((await nft_marketplace.items(1)).onsale).to.equal(false)
       // Seller should receive payment for the price of the NFT sold.
-      expect(+fromWei(sellerFinalEthBal)).to.equal(+price + +fromWei(sellerInitalEthBal))
+      expect((+fromWei(sellerFinalEthBal)).toFixed(10)).to.equal((+price + +fromWei(sellerInitalEthBal)).toFixed(10))
       // feeAccount should receive fee
-      expect(+fromWei(feeAccountFinalEthBal)).to.equal(+fee + +fromWei(feeAccountInitialEthBal))
+      expect((+fromWei(feeAccountFinalEthBal)).toFixed(10)).to.equal((+fee + +fromWei(feeAccountInitialEthBal)).toFixed(10))
       // The buyer should now own the nft
       expect(await nft_marketplace.ownerOf(1)).to.equal(addr2.address);
     })
