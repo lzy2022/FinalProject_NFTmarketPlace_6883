@@ -22,10 +22,9 @@ GUI:  <br>
       New RPC URL: http://127.0.0.1:8545  <br>
       Chain ID: 31337  <br>
       Currency symbol: ETH  <br>
- <br>
-      if previously connected to the Hardhat Node, disconnect the blockchain and reconnect  <br>
-      should also remove all the previous test accounts, after adding new test accounts, follow this instruction and make sure the   <br>
-      accounts are reset <br>
+      if previously connected to the Hardhat Node, disconnect the blockchain and reconnect.  <br>
+      Should also remove all the previous test accounts, after adding new test accounts, follow this instruction and make sure the
+      accounts are reset following:
       https://medium.com/@thelasthash/solved-nonce-too-high-error-with-metamask-and-hardhat-adc66f092cd  <br>
  5. Import the testing accounts to METAMASK using corresponding private keys
  6. In the GUI webpage, click "Connect Wallte", select which account to connect in the METAMASK's prompt
