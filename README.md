@@ -32,4 +32,4 @@ GUI:
  7. Create, send, buy and sell NFT using the GUI
  8. To switch to another testing account, open "Connected sites" page in the METAMASK account tabe, disconnect the localhost page, refresh the webpage and connect using another account. 
 
-![alt text](http://url/to/img.png](https://github.com/lzy2022/FinalProject_NFTmarketPlace_6883/blob/main/GUI_Sample.png)
+![alt text](/GUI_Sample.png)
