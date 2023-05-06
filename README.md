@@ -1,7 +1,7 @@
 # FinalProject_NFTmarketPlace_6883
  
- node,js - v16.20.0
- METAMASK
+  node,js - v16.20.0
+  METAMASK
  
  
 1. npm install
@@ -18,15 +18,15 @@ GUI:
  2. open a new terminal, run: npx hardhat run src\backend\scripts\deploy.js --network localhost
  3. open a new terminal, run: npm run start     (Should open a GUI webpage the browser)
  4. open METAMASK on the browser, create and connect to Hardhat Node using the following setup:
-     Network Name: Hardhat Node
-     New RPC URL: http://127.0.0.1:8545
-     Chain ID: 31337
-     Currency symbol: ETH
+      Network Name: Hardhat Node
+      New RPC URL: http://127.0.0.1:8545
+      Chain ID: 31337
+      Currency symbol: ETH
  
-     if previously connected to the Hardhat Node, disconnect the blockchain and reconnect
-     should also remove all the previous test accounts, after adding new test accounts, follow this instruction and make sure the 
-     accounts are reset 
-     https://medium.com/@thelasthash/solved-nonce-too-high-error-with-metamask-and-hardhat-adc66f092cd
+      if previously connected to the Hardhat Node, disconnect the blockchain and reconnect
+      should also remove all the previous test accounts, after adding new test accounts, follow this instruction and make sure the 
+      accounts are reset 
+      https://medium.com/@thelasthash/solved-nonce-too-high-error-with-metamask-and-hardhat-adc66f092cd
  5. Import the testing accounts to METAMASK using corresponding private keys
  6. In the GUI webpage, click "Connect Wallte", select which account to connect in the METAMASK's prompt
  7. Create, send, buy and sell NFT using the GUI
