@@ -6,29 +6,17 @@
     - package.json
     - hardhat.config.js
     - README.md
-    - src // **This folder contains the code for frontend & backend
-          - backend  // **This folder contains the code for backend
-                - contract // ** This folder contains the code for NFT_Marketplace smart contract
-                      - NFT_Marketplace.sol  // ** This file implements the NFT_Marketplace smart contract
-                - scripts // ** This folder contains the code to deploy the smart contract onto the blockchain
-                      - deploy.js  // ** This file deploys the NFT_Marketplace smart contract onto the blockchain
-                - test // ** This folder contains the test bench code 
-                      - NFTMarketplace.test.js  // ** This file contains the test bech code
-          - frontend  // **This folder contains the code for frontend
-                - components // **This folder contains the code for the frontend Web App
-                - contractsData // **This folder contains blockchain information passed to the frontend Wen App
-                
-#### Code 
-    - main.py
-          main.py contains the main function of the API. This file is used to launch the back-end server
-    - app.yaml
-          Config info for google cloud sever
-    - requirements.txt
-          Config info for google cloud sever
-    - This_is_a_test.wav
-          A test speech file
-    - API_test.py
-          A test session
+    - src (This folder contains the code for frontend & backend)
+          - backend  (This folder contains the code for backend)
+                - contract (This folder contains the code for NFT_Marketplace smart contract)
+                      - NFT_Marketplace.sol  (This file implements the NFT_Marketplace smart contract)
+                - scripts (his folder contains the code to deploy the smart contract onto the blockchain)
+                      - deploy.js  (his file deploys the NFT_Marketplace smart contract onto the blockchain)
+                - test (This folder contains the test bench code)
+                      - NFTMarketplace.test.js  (This file contains the test bech code)
+          - frontend  (This folder contains the code for frontend)
+                - components (This folder contains the code for the frontend Web App)
+                - contractsData (This folder contains blockchain information passed to the frontend Wen App)
  
   node,js - v16.20.0  <br>
   METAMASK  <br>
